@@ -1,0 +1,42 @@
+
+table {
+    width: 70%;
+    border-radius: 10px;
+  }
+  
+  thead {
+    background-color: lightblue;
+  }
+  
+  tr {
+    border-bottom: lightblue solid 5px;
+  }
+  
+  th {
+    font-size: 1.4em;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 10px;
+  }
+  
+  td {
+    width: 25%;
+    font-size: 1.4em;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 3px;
+    border-bottom: lightblue solid 5px;
+    margin-bottom: 20px;
+    background-color: rgb(210, 234, 243);
+    padding: 0.5em;
+  }
+  
+  tr {
+    margin-bottom: 20px;
+  }
+
+  .button-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }

@@ -1,0 +1,37 @@
+.btn{
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 1em 2em;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-custom {
+    background-color: lightblue;
+    margin: 10px 0;
+    width: 22%;
+}
+
+.btn-custom:hover {
+    background-color: rgb(140, 164, 172);
+}
+
+.btn-delete {
+    background-color: rgb(233, 136, 10);
+    font-size: 0.8em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn-delete:hover {
+    background-color: rgb(214, 93, 23);
+}
